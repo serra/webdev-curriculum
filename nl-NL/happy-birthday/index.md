@@ -6,6 +6,7 @@ notes: "Happy Birthday - notes.md"
 project-type: sample
 ---
 
+<!--
 # Introduction { .intro}
 
 In this project, you'll be introduced to HTML & CSS by learning how to make your own customised birthday card.
@@ -15,11 +16,30 @@ In this project, you'll be introduced to HTML & CSS by learning how to make your
   </iframe>
   <img src="images/birthday-final.png">
 </div>
+-->
 
+# Introductie { .intro}
+
+In dit project maak je kennis met HTML en CSS door je eigen verjaardagskaart te maken.
+
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/e996dc0380?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/birthday-final.png">
+</div>
+
+<!--
 # Step 1: What is HTML? { .activity}
 
 HTML stands for __HyperText Markup Language__, and is the language used to make webpages. Let's have a look at an example!
 
+--> 
+
+# Stap 1: Wat is HTML? { .activity}
+
+HTML is een afkorting voor __HyperText Markup Language__. Het is de taal waar webpagina's mee gemaakt worden. Laten we een voorbeeld gaan bekijken!
+
+<!--
 
 ## Activity Checklist { .check}
 
@@ -61,6 +81,51 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 
 	![screenshot](images/birthday-reset.png)
 
+-->
+
+
+## Takenlijst { .check}
+
++ Je gaat de website Trinket gebruiken om HTML te schrijven. Open deze Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. 
+
+	Het project zou er zo uit moeten zien:
+
+	![screenshot](images/birthday-starter.png)
+
++ De code aan de linkerkant van de Trinket is HTML. Aan de rechterkant van de Trinket kun je de webpagina zien die de HTML gemaakt heeft.
+
+	HTML gebruikt __tags__ Om webpagina's te maken. 
+	Kun je dit stukje HTML op regel 8 van je code vinden?
+
+	```
+	<p>Hi. My name is Andy.</p>
+	```
+
+	`<p>` is een voorbeeld van een tag; p is een afkorting voor __paragraph__ (paragraaf). Je kan een paragraaf beginnen met `<p>` en een paragraaf eindigen met `</p>`.
+
++ Kun je nog meer tags vinden? Bijvoorbeeld de `<b>` van __bold__ (vet)?:
+
+	```
+	<b>running</b>
+	```
+
+	Hier zijn er nog meer:
+
+	+ `<html>` en `</html>` markeren het begin en eind van een HTML document;
+	+ `<head>` en `</head>` is waar CSS en andere dingen terecht komen (later meer daarover!);
+	+ `<body>` en `</body>` is waar de inhoud van de webpagina komt.
+
+	![screenshot](images/birthday-head-body.png)
+
++ Probeer eens een veranderin in een paragraaf in de HTML (linkerkant) te maken. Druk op 'Run' en je zou je webpagina rechts moeten zien veranderen:
+
+	![screenshot](images/birthday-edit-html.png)
+
++ Als je een foutje hebt gemaakt dan kun je dat eenvudig ongedaan maken. Druk daarvoor op de 'Reset' knop. Probeer het maar eens!
+
+	![screenshot](images/birthday-reset.png)
+
+<!-- 
 ## Save Your Project {.save}
 
 __You don't need a Trinket account to save your projects!__ 
@@ -72,7 +137,25 @@ If you don't have a Trinket account, click the down arrow and then click 'Link'.
 If you have a Trinket account, the easiest way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
 
 ![screenshot](images/birthday-remix.png)
+-->
 
+## Sla je werk op {.save}
+
+__Je hebt geen Trinket account nodig om je aanpassingen op te slaan.__ 
+
+Als je geen Trinket account hebt, klik dan het pijltje naar beneden en klik op 'Link'.
+Dan krijg je een link die je kan bewaren en waar je later weer naartoe kunt gaan.
+Let op, elke keer als je een verandering maakt verandert de link!
+
+![screenshot](images/birthday-link.png)
+
+Als je een trinket account hebt, dan is "remixen" de makkelijkste manier 
+om je webpagina te bewaren.
+Druk op de 'Remix' button om een kopie van de Trinket in je profiel te bewaren.
+
+![screenshot](images/birthday-remix.png)
+
+<!--
 ##Challenge: Add another paragraph {.challenge}
 Can you add a 3rd paragraph of text to your webpage, below the other 2? Remember that your new paragraph should start with a `<p>` tag, and end with `</p>`.
 
@@ -83,6 +166,20 @@ Here's how your webpage should look:
 Can you add __bold__ and <u>underlined</u> text to your new paragraph? You should use `<u>` and `</u>` for underlined text.
 
 ## Save Your Project {.save}
+-->
+
+## Uitdaging: voeg een extra paragraaf toe {.challenge}
+Kun je een derde paragraaf toevoegen aan jouw pagina, onder de andere twee? Denk eraan dat je paragraaf begint met een `<p>` tag, en eindigt met `</p>`.
+
+Zo zou je pagina eruit moeten zien:
+
+![screenshot](images/birthday-paragraph.png)
+
+Can you add __bold__ and <u>underlined</u> text to your new paragraph? You should use `<u>` and `</u>` for underlined text.
+
+## Save Your Project {.save}
+
+
 
 # Step 2: What is CSS? { .activity}
 
