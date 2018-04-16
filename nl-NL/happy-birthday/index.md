@@ -109,7 +109,7 @@ HTML is een afkorting voor __HyperText Markup Language__. Het is de taal waar we
 	<b>running</b>
 	```
 
-	Hier zijn er nog meer:
+	Hier zijn er nog een paar:
 
 	+ `<html>` en `</html>` markeren het begin en eind van een HTML document;
 	+ `<head>` en `</head>` is waar CSS en andere dingen terecht komen (later meer daarover!);
@@ -117,11 +117,11 @@ HTML is een afkorting voor __HyperText Markup Language__. Het is de taal waar we
 
 	![screenshot](images/birthday-head-body.png)
 
-+ Probeer eens een veranderin in een paragraaf in de HTML (linkerkant) te maken. Druk op 'Run' en je zou je webpagina rechts moeten zien veranderen:
++ Probeer eens een verandering in een paragraaf in de HTML (linkerkant) te maken. Druk op 'Run' en je zou je webpagina rechts moeten zien veranderen:
 
 	![screenshot](images/birthday-edit-html.png)
 
-+ Als je een foutje hebt gemaakt dan kun je dat eenvudig ongedaan maken. Druk daarvoor op de 'Reset' knop. Probeer het maar eens!
++ Als je een foutje hebt gemaakt dan kun je dat eenvoudig ongedaan maken. Druk daarvoor op de 'Reset' knop. Probeer het maar eens!
 
 	![screenshot](images/birthday-reset.png)
 
@@ -149,7 +149,7 @@ Let op, elke keer als je een verandering maakt verandert de link!
 
 ![screenshot](images/birthday-link.png)
 
-Als je een trinket account hebt, dan is "remixen" de makkelijkste manier 
+Als je wel een trinket account hebt, dan is "remixen" de makkelijkste manier 
 om je webpagina te bewaren.
 Druk op de 'Remix' button om een kopie van de Trinket in je profiel te bewaren.
 
@@ -169,6 +169,7 @@ Can you add __bold__ and <u>underlined</u> text to your new paragraph? You shoul
 -->
 
 ## Uitdaging: voeg een extra paragraaf toe {.challenge}
+
 Kun je een derde paragraaf toevoegen aan jouw pagina, onder de andere twee? Denk eraan dat je paragraaf begint met een `<p>` tag, en eindigt met `</p>`.
 
 Zo zou je pagina eruit moeten zien:
@@ -177,16 +178,22 @@ Zo zou je pagina eruit moeten zien:
 
 Can you add __bold__ and <u>underlined</u> text to your new paragraph? You should use `<u>` and `</u>` for underlined text.
 
-## Save Your Project {.save}
+## Sla je project op {.save}
 
-
-
-# Step 2: What is CSS? { .activity}
-
+# Stap 2: Wat is CSS? { .activity}
+<!--
 CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. You can link your webpage to a CSS file in the `<head>` of an HTML document like this:
 
 ![screenshot](images/birthday-css-link.png)
+-->
 
+CSS is een afkorting voor __Cascading Style Sheets__. 
+Het is de taal om webpagina's te stylen zodat ze er leuk uitzien.
+Je kan een webpagina aan een CSS bestand linken in de `<head>` van een HTML document:
+
+![screenshot](images/birthday-css-link.png)
+
+<!--
 ## Activity Checklist { .check}
 
 + CSS lists all of the __properties__ for a particular tag. Click the 'style.css' tab to see the CSS for your webpage.
@@ -206,20 +213,60 @@ CSS stands for __Cascading Style Sheets__, and is the language used to style web
 + Change the word 'black' in the CSS to 'blue'. You should see the text colour of all paragraphs change to blue.
 
 	![screenshot](images/birthday-edit-css.png)
+-->
 
-## Save Your Project {.save}
+## Takenlijst { .check}
 
-##Challenge: Add more style {.challenge}
++ CSS bescrhijft alle __properties__ (eigenschappen) van een tag. Klik het 'style.css' tabblad om het CSS bestand van je webpagina te bekijken.
+
+	![screenshot](images/birthday-css-tab.png)
+
++ Vind deze code:
+
+	```
+	p {
+		color: black;
+	}
+	```
+
+	Deze CSS code specificeert één eigenchap voor een paragrafen.
+	Namelijk dat de kleur (color) van de tekst zwart (black) moet zijn.
+
++ Verander het woord 'black' in het CSS naar 'blue' (blauw). De tekstkleur van alle paragrafen zou nu  blauw moeten zijn:
+
+	![screenshot](images/birthday-edit-css.png)
+
+## Sla je werk op {.save}
+
+<!-- 
+## Challenge: Add more style {.challenge}
 Can you make the paragraphs of text orange? Or the background grey?
 
 ![screenshot](images/birthday-more-style.png)
 
 ## Save Your Project {.save}
+-->
+
+## Uitdaging: Voeg meer "style" toe {.challenge}
+Kun je de paragraaf oranje ("orange") tekst geven? Of een grijze ("gray") achtergrond?
+
+![screenshot](images/birthday-more-style.png)
+
+## Sla je werk op {.save}
+
+<!-- 
 
 # Step 3: Making a birthday card { .activity}
 
 Let's use what you've learnt about HTML and CSS to make your own custom birthday card.
 
+ -->
+
+# Stap 3: Maak je eigen verjaardagskaart { .activity}
+
+Met wat je geleerd hebt van HTML en CSS kun je een originele verjaardagskaart maken. Aan de slag!
+
+<!--
 ## Activity Checklist { .check}
 
 + Open this Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, or use the embedded version below if you're reading this online.
@@ -230,6 +277,22 @@ Let's use what you've learnt about HTML and CSS to make your own custom birthday
 </div>
 
 Don't worry if you don't understand all of the code. This birthday card looks pretty boring, so you're going to make some changes to this HTML and CSS.
+-->
+
+## Takenlijst { .check}
+
++ Open deze Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, of gebruik de embedded Trinket hieronder als je online werkt.
+
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
+Maak je geen zorgen als je niet alle code begrijpt.
+Deze kaart ziet er een beetje saai uit. 
+Laten we wat aanpassingen aan de HTML en CSS doen om hem feestelijker te maken.
+
+<!--
 
 + Click the button on the front of the card, and you should see it open to reveal the inside.
 
@@ -244,6 +307,23 @@ Don't worry if you don't understand all of the code. This birthday card looks pr
 	![screenshot](images/birthday-card-sun.png)
 
 	You can use any of the words `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
+-->
+
++ Klik op de knop op de voorkant van de kaart. De kaart zou open moeten gaan zodat je de binnenkant kan lezen.
+
+	![screenshot](images/birthday-click.png)
+
++ Gan naar regel 14 van de code. Je kan de tekst in de HTML aanpassen om de kaart te veranderen.
+
+	![screenshot](images/birthday-card-html.png)
+
++ Kun je de HTML van het robotplaatje vinden? (Tip: het staat in regel 17!) Verander het woor robot `robot` in `sun`. Zie je dat het plaatje verandert?
+
+	![screenshot](images/birthday-card-sun.png)
+
+	Je kan de volgende woorden gebruiken op de plaats van robot: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
+
+<!--
 
 + You can also edit the CSS of the birthday card. Click on the tab for “style.css”. It begins with all of the CSS for the `outside` of the card. Change the `background-color` to `lightgreen`.
 
@@ -261,6 +341,26 @@ Don't worry if you don't understand all of the code. This birthday card looks pr
 
 ## Save Your Project {.save}
 
+-->
+
++ Je kan ook de CSS van je kaart aanpassen. Klik op het tabblad “style.css”. Het begint met de CSS voor de buitenkant (`outside`) van de kaart. Verander de achtergrondkleur (`background-color`) eens naar lichtgroen (`lightgreen`).
+
+	![screenshot](images/birthday-card-outside.png)
+
++ Je kan ook de afmetingen van een plaatje veranderen. Ga naar de  `#outside-pic` CSS, verander de breedte (`width`) en hoogte (`height`) van het plaatje naar naar `200px` (`px` is een afkorting voor pixels).
+
+	![screenshot](images/birthday-card-size.png)	
+
++ We kunnen het lettertype ("font") ook veranderen. Ga naar de `#outside-title` CSS em verander `font-family` in `Comic Sans MS` en de `font-size` in `16pt`.
+
+	![screenshot](images/birthday-card-font.png)
+
+	Je kan ook andere fonts gebruiken zoals <span style="font-family: Arial;">Arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>. 
+
+## Sla je werk op {.save}
+
+<!--
+
 ##Challenge: Create a personalised card {.challenge}
 Use everything you've learnt about HTML and CSS to finish making a personalised card. It doesn't even have to be a birthday card, it could be for any occasion!
 
@@ -273,5 +373,26 @@ You can find more CSS colour names at <a href="http://jumpto.cc/colours" target=
 ## Save Your Project {.save}
 
 Now that you've finished your card, you can share or email it to someone.
+
+![screenshot](images/birthday-share.png)
+
+-->
+
+
+## Uitdaging: Maak een originele kaart {.challenge}
+
+Gebruik alles wat je geleerd hebt over HTML en CSS om een persoonlijke kaart te maken.
+Het hoeft geen verjaardagskaart te zijn, het kan een kaart voor elke gelegenheid zijn!
+
+Hier is een voorbeeld:
+
+![screenshot](images/birthday-final.png)
+
+Je kan meer CSS kleurnamen vinden op<a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
+
+## Sla je werk op {.save}
+
+Nu je kaart klaar is, kun je hem naar iemand opsturen.
+Doe dit door de link te delen of door de kaart te emailen.
 
 ![screenshot](images/birthday-share.png)
